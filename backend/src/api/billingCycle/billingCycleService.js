@@ -13,4 +13,4 @@ BillingCycle.route('get', (req, res, next) => {
   });
 });
 
-module.exports = BillingCycle
+module.exports = BillingCycle;
