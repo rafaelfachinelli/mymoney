@@ -197,7 +197,7 @@ Open the command prompt in the project directory, open the [`example/`](example/
 
 </details>
 
-> ⚠️ The development server will start on port:PORT - Access <http://localhost:PORT>
+> ⚠️ The development server will start on port:3000 - Access <http://localhost:3000>
 
 ---
 ## :hammer_and_wrench: **Technologies**
@@ -217,17 +217,17 @@ The following tools is used to build this project:
 
 <div align="center">
 
-<a href="https://github.com/AUTHORUSERNAME">
- <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Profile Photo AUTHOR NAME"/>
+<a href="https://github.com/rafaelfachinelli">
+ <img src="https://github.com/rafaelfachinelli.png" width="100px;" alt="Profile Photo Rafael Fachinelli"/>
  <br/>
- <sub><b>AUTHOR NAME</b></sub>
+ <sub><b>Rafael Fachinelli</b></sub>
 </a>
 
-Developed with ❤️ by AUTHOR NAME 👋🏽 Contact me!
+Developed with ❤️ by Rafael Fachinelli 👋🏽 Contact me!
 
-[![Linkedin Badge](https://img.shields.io/badge/-AUTHOR_NAME-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/AUTHORNAME)
-[![Github Badge](https://img.shields.io/badge/-AUTHORNAME-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/AUTHORUSERNAME)
-[![Outlook Badge](https://img.shields.io/badge/-AUTHOREMAIL-0078d4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:AUTHOREMAIL)
+[![Linkedin Badge](https://img.shields.io/badge/-Rafael_Fachinelli-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelfachinelli)
+[![Github Badge](https://img.shields.io/badge/-rafaelfachinelli-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/rafaelfachinelli)
+[![Outlook Badge](https://img.shields.io/badge/-rafael.fachinelli@fatec.sp.gov.br-0078d4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:rafael.fachinelli@fatec.sp.gov.br)
 
 </div>
 
@@ -236,7 +236,7 @@ Developed with ❤️ by AUTHOR NAME 👋🏽 Contact me!
 
 <div align="center">
 
-Copyright © 2021 [NAME](https://github.com/USERNAME).<br />
+Copyright © 2021 [Rafael Fachinelli](https://github.com/rafaelfachinelli).<br />
 This project is licensed by [MIT](./LICENSE).
 
 </div>
