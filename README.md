@@ -32,6 +32,8 @@
 |:---:|:---:|
 |<kbd><img src=".github/previews/desktop_preview.jpg" alt="Desktop"/></kbd>|<kbd><img src=".github/previews/ultraWide_preview.jpg" alt="Ultra Wide"/></kbd>|
   
+</div>
+
 ---
 ## :information_source: About
 
