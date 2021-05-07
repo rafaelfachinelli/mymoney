@@ -175,6 +175,8 @@ The following tools is used to build this project:
 |[Example](https://example.com)|[mongoose](https://example.com)|
 |[Example](https://example.com)|[mongoose-paginate](https://example.com)|
 |[Example](https://example.com)|[express](https://example.com)|
+|[Example](https://example.com)|[body-parser](https://example.com)|
+|[Example](https://example.com)|[pm2](https://example.com)|
 
 </div>
 
