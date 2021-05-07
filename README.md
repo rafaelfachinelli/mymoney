@@ -169,7 +169,10 @@ The following tools is used to build this project:
 
 |:globe_with_meridians: Web|:file_cabinet: Server|
 |:---:|:---:|
-|[Example](https://example.com)|[Example](https://example.com)|
+|[Example](https://example.com)|[Nodejs](https://example.com)|
+|[Example](https://example.com)|[mongodb](https://example.com)|
+|[Example](https://example.com)|[mongoose](https://example.com)|
+|[Example](https://example.com)|[Nodejs](https://example.com)|
 
 </div>
 
