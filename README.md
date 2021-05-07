@@ -173,6 +173,7 @@ The following tools is used to build this project:
 |[Example](https://example.com)|[nodemon](https://example.com)|
 |[Example](https://example.com)|[mongodb](https://example.com)|
 |[Example](https://example.com)|[mongoose](https://example.com)|
+|[Example](https://example.com)|[mongoose-paginate](https://example.com)|
 |[Example](https://example.com)|[express](https://example.com)|
 
 </div>
