@@ -1,200 +1,142 @@
 <p align="center">
-  <img alt="My Money" src=".github/banner.svg" width="250px"/>
-</p>
-
-<p align="center"> 
-  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/mymoney?color=3498db&style=for-the-badge">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/mymoney?color=3498db&style=for-the-badge">
-  <a href="https://github.com/rafaelfachinelli">
-    <img alt="Developed by Rafael Fachinelli" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-%3498db?color=3498db&style=for-the-badge">
-  </a>
-  <img alt="Project License" src="https://img.shields.io/github/license/rafaelfachinelli/mymoney?color=3498db&style=for-the-badge"/>
+  <img alt="My Money" src=".github/banner.svg" width="400px"/>
 </p>
 
 <p align="center">
- <a href="#eye_speech_bubble-preview">Preview</a> •
- <a href="#information_source-about">About</a> •
- <a href="#memo-tasks">Tasks</a> •
- <a href="#arrow_forward-run">Run</a> •
- <a href="#hammer_and_wrench-technologies">Technologies</a> •
- <a href="#boy-author">Author</a> •
- <a href="#balance_scale-license">License</a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/mymoney?color=3498db&style=for-the-badge">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/mymoney?color=3498db&style=for-the-badge">
+  <a href="https://rafaelfachinelli.com">
+    <img alt="Developed by Rafael Fachinelli" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-3498db?style=for-the-badge">
+  </a>
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-3498db?style=for-the-badge">
+</p>
+
+<p align="center">
+  <a href="#information_source-about">About</a> •
+  <a href="#memo-tasks">Tasks</a> •
+  <a href="#arrow_forward-run">Run</a> •
+  <a href="#hammer_and_wrench-technologies">Technologies</a> •
+  <a href="#boy-author">Author</a> •
+  <a href="#balance_scale-license">License</a>
 </p>
 
 ---
-## :eye_speech_bubble: **Preview**
 
-<div align="center">
-
-### :desktop_computer: Computer
-  
-|Desktop|Ultra Wide|
-|:---:|:---:|
-|<kbd><img src=".github/previews/desktop_preview.jpg" alt="Desktop"/></kbd>|<kbd><img src=".github/previews/ultraWide_preview.jpg" alt="Ultra Wide"/></kbd>|
-  
-</div>
-
----
 ## :information_source: About
 
-Description about this project.
+💰 Personal finance app organized by billing cycles: each cycle (name, month and year) has its credits and debts, and a dashboard sums them up. The backend is a REST API with Node.js, Express and MongoDB (Mongoose with pagination, generated with node-restful); the frontend is a React admin panel with the AdminLTE template.
+
+Built in 2021 to study a full JavaScript stack.
 
 ---
-## :memo: **Tasks**
+
+## :memo: Tasks
 
 <div align="center">
 <details>
-<summary>Click to View</summary>
+<summary>Click to view</summary>
+
+<details>
+<summary>🗄️ Backend</summary>
 
 |State|Task|
 |:---:|:---|
-|:heavy_check_mark:|Describe your task finished.|
-|:x:|Describe your task unfinished.|
+|:heavy_check_mark:|Express server with CORS and query parsing|
+|:heavy_check_mark:|MongoDB connection with Mongoose|
+|:heavy_check_mark:|Billing cycle model with credits and debts|
+|:heavy_check_mark:|REST service with node-restful and pagination|
+|:heavy_check_mark:|Error handler|
+|:heavy_check_mark:|Production run with PM2|
+
+</details>
+
+<details>
+<summary>🌐 Frontend</summary>
+
+|State|Task|
+|:---:|:---|
+|:heavy_check_mark:|AdminLTE template: header, sidebar, menu and footer|
+|:heavy_check_mark:|Routes|
+|:heavy_check_mark:|Dashboard|
+|:heavy_check_mark:|Billing cycles page|
+
+</details>
 
 </details>
 </div>
 
 ---
-## :arrow_forward: **Run**
 
-To run the project you need to clone or [`download`](https://github.com/USERNAME/REPOSITORY/archive/main.zip) this repository, have the Node Package Manager ([`NPM`](https://www.npmjs.com/get-npm)) or the YARN Package Manager installed ([`YARN`](https://yarnpkg.com/getting-started)).
+## :arrow_forward: Run
 
-### :globe_with_meridians: **Web**
+You need [Node.js](https://nodejs.org/) and MongoDB running on `localhost`.
 
-Open the command prompt in the project directory, open the [`example/`](example/) folder and execute the following commands:
+### Backend
 
-<details>
-  <summary><i>with <b>npm</b></i></summary>
-  
-  ```bash
-  # Install dependencies
-  $ npm install
+In the [`backend/`](backend/) folder:
 
-  # Start development server
-  $ npm start
-  ```
-  
-</details>
+```bash
+# Install dependencies
+yarn
 
-<details>
-  <summary><i>with <b>yarn</b></i></summary>
-  
-  ```bash
-  # Install dependencies
-  $ yarn
+# Start the API
+yarn dev
+```
 
-  # Start development server
-  $ yarn start
+> The API starts at <http://localhost:3003>.
 
-  ```
+### Frontend
 
-</details>
+In the [`frontend/`](frontend/) folder:
 
-> ⚠️ The development server will start on port:PORT - Access <http://localhost:PORT>
+```bash
+# Install dependencies
+npm install
 
-### :file_cabinet: **Server**
-
-Open the command prompt in the project directory, open the [`example/`](example/) folder and execute the following commands:
-
-<details>
-  <summary><i>with <b>npm</b></i></summary>
-  
-  ```bash
-  # Install dependencies
-  $ npm install
-
-  # Start development server
-  $ npm start
-  ```
-  
-</details>
-
-<details>
-  <summary><i>with <b>yarn</b></i></summary>
-  
-  ```bash
-  # Install dependencies
-  $ yarn
-
-  # Start development server
-  $ yarn start
-
-  ```
-
-</details>
-
-<details>
-<summary>:dizzy: <b>API Routes</b></summary>
-
-<details>
-<summary>[POST] <b>Create OBJECT</b></summary>
-/api/create/OBJECT
-</details>
-
-<details>
-<summary>[PUT] <b>Update OBJECT</b></summary>
-/api/update/OBJECT/:id
-</details>
-
-<details>
-<summary>[GET] <b>Get OBJECT</b></summary>
-/api/view/OBJECT/:id
-</details>
-  
-<details>
-<summary>[GET] <b>Get All OBJECTS</b></summary>
-/api/view/OBJECTS
-</details>
-
-<details>
-<summary>[DEL] <b>Delete OBJECT</b></summary>
-/api/delete/OBJECT/:id
-</details>
-
-<details>
-<summary>[DEL] <b>Delete All OBJECTS</b></summary>
-/api/delete/OBJECTS
-</details>
-
-</details>
-
-> ⚠️ The development server will start on port:3000 - Access <http://localhost:3000>
+# Start the development server
+npm run dev
+```
 
 ---
-## :hammer_and_wrench: **Technologies**
 
-The following tools is used to build this project:
+## :hammer_and_wrench: Technologies
 
 <div align="center">
 
-|:globe_with_meridians: Web|:file_cabinet: Server|
+|Backend|Frontend|
 |:---:|:---:|
-|[Example](https://example.com)|[Nodejs](https://example.com)|
-|[Example](https://example.com)|[nodemon](https://example.com)|
-|[Example](https://example.com)|[mongodb](https://example.com)|
-|[Example](https://example.com)|[mongoose](https://example.com)|
-|[Example](https://example.com)|[mongoose-paginate](https://example.com)|
-|[Example](https://example.com)|[express](https://example.com)|
-|[Example](https://example.com)|[body-parser](https://example.com)|
-|[Example](https://example.com)|[pm2](https://example.com)|
+|[Node.js](https://nodejs.org/)|[React](https://react.dev/)|
+|[Express](https://expressjs.com/)|[AdminLTE](https://adminlte.io/)|
+|[MongoDB](https://www.mongodb.com/)|[Axios](https://axios-http.com/)|
+|[Mongoose](https://mongoosejs.com/)|[Webpack](https://webpack.js.org/)|
+|[node-restful](https://github.com/baugarten/node-restful)|[Babel](https://babeljs.io/)|
+|[PM2](https://pm2.keymetrics.io/)||
 
 </div>
 
 ---
-## :boy: **Author**
+
+## :boy: Author
 
 <div align="center">
-  
-[![Author](https://github.com/rafaelfachinelli/rafaelfachinelli/blob/master/.github/author.svg)](https://www.linkedin.com/in/rafaelfachinelli/)
+
+<a href="https://rafaelfachinelli.com">
+  <img src="https://github.com/rafaelfachinelli.png" width="100px" alt="Rafael Fachinelli"/>
+  <br/>
+  <sub><b>Rafael Fachinelli</b></sub>
+</a>
+
+Tech Lead and software engineer. Get in touch!
+
+[![Portfolio](https://img.shields.io/badge/-rafaelfachinelli.com-3498db?style=flat-square&logo=googlechrome&logoColor=white)](https://rafaelfachinelli.com)
+[![LinkedIn](https://img.shields.io/badge/-Rafael_Fachinelli-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelfachinelli/)
+[![GitHub](https://img.shields.io/badge/-rafaelfachinelli-000?style=flat-square&logo=github&logoColor=white)](https://github.com/rafaelfachinelli)
+[![E-mail](https://img.shields.io/badge/-rafael.l.a.fachinelli@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:rafael.l.a.fachinelli@gmail.com)
 
 </div>
 
 ---
-## :balance_scale: **License**
 
-<div align="center">
+## :balance_scale: License
 
-Copyright © 2021 [Rafael Fachinelli](https://github.com/rafaelfachinelli).<br />
-This project is licensed by [MIT](./LICENSE).
-
-</div>
+This project is under the [MIT license](./LICENSE).
